@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App10"
+             x:Class="App10.MainPage">
+
+    <ContentPage>
+        <Label Text="Imagen 1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry Placeholder="" IsEnabled="False" x:Name="caja" />
+            <Image Source="Bob-Esponja.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un1" Clicked="gus1_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do1" Clicked="nogus1_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <Label Text="Imagen 2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="frida.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un2" Clicked="gus2_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do2" Clicked="nogus2_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image x:Name="hi"  Aspect="Fill" HorizontalOptions="Center" WidthRequest="500" HeightRequest="500" />
+            <Button Text="Me Gusta" x:Name="un3" Clicked="gus3_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do3" Clicked="nogus3_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image x:Name="fg"  Aspect="Fill" HorizontalOptions="Center" WidthRequest="500" HeightRequest="500"/>
+            <Button Text="Me Gusta" x:Name="un4" Clicked="gus4_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do4" Clicked="nogus4_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="Malefica.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un5" Clicked="gus5_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do5" Clicked="nogus5_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image x:Name="Ab"  Aspect="Fill" HorizontalOptions="Center" WidthRequest="500" HeightRequest="500"/>
+            <Button Text="Me Gusta" x:Name="un6" Clicked="gus6_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do6" Clicked="nogus6_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="oso.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un7" Clicked="gus7_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do7" Clicked="nogus7_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="patricio.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un8" Clicked="gus8_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do8" Clicked="nogus8_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="raton.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un9" Clicked="gus9_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do9" Clicked="nogus9_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="sirena.jpg" WidthRequest="500" HeightRequest="500"></Image>
+            <Button Text="Me Gusta" x:Name="un10" Clicked="gus10_Clicked"></Button>
+            <Button Text="No me Gusta" x:Name="do10" Clicked="nogus10_Clicked"></Button>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
