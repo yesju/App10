@@ -7,7 +7,7 @@
     <ContentPage>
         <Label Text="Imagen 1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Entry Placeholder="" IsEnabled="False" x:Name="caja" />
+            
             <Image Source="Bob-Esponja.jpg" WidthRequest="500" HeightRequest="500"></Image>
             <Button Text="Me Gusta" x:Name="un1" Clicked="gus1_Clicked"></Button>
             <Button Text="No me Gusta" x:Name="do1" Clicked="nogus1_Clicked"></Button>
@@ -82,12 +82,14 @@
             <Button Text="No me Gusta" x:Name="do9" Clicked="nogus9_Clicked"></Button>
         </StackLayout>
     </ContentPage>
-    
+
     <ContentPage>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Image Source="sirena.jpg" WidthRequest="500" HeightRequest="500"></Image>
             <Button Text="Me Gusta" x:Name="un10" Clicked="gus10_Clicked"></Button>
             <Button Text="No me Gusta" x:Name="do10" Clicked="nogus10_Clicked"></Button>
+            <Button Text="Cuantos Gusta" HorizontalOptions="Center" Clicked="Evaluar_Clicked"/>
+            <Button Text="Cuantos No me gustan " HorizontalOptions="Center" Clicked="EvaluarDL_Clicked"/>
         </StackLayout>
     </ContentPage>
 
